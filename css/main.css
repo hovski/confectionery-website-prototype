@@ -120,6 +120,7 @@ h2 {
   border-color: #f17022;
   border-style: solid;
   border-width: 4px;
+  max-width: 80%;
 }
 
 .cardwrap {
@@ -153,7 +154,7 @@ footer {
 }
 
 .bonbon-1 {
-  width: 5%;
+  width: 6%;
   position: absolute;
   left: 5%;
   top: 50%;
@@ -161,7 +162,7 @@ footer {
 }
 
 .bonbon-2 {
-  width: 5%;
+  width: 6%;
   position: absolute;
   right: 5%;
   top: 50%;
@@ -221,6 +222,7 @@ footer {
   .card {
     display: inline-block;
     width: 25%;
+    min-height: 288px;
   }
 
 }
