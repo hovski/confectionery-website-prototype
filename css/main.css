@@ -123,6 +123,10 @@ h2 {
   max-width: 80%;
 }
 
+.card:hover {
+  background-color: #f68b1f;
+}
+
 .cardwrap {
   margin: auto;
   text-align: center;
