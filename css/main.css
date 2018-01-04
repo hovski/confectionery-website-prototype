@@ -16,3 +16,53 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #f17022;
+  color: black;
+}
+
+header h1 {
+  background-color: #f17022;
+  margin: 0;
+  color: black;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-decoration: none;
+  text-align: center;
+  padding: .5em .75em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.125rem;
+}
+
+nav li {
+  text-align: left;
+}
+
+nav a {
+  display: block;
+  padding: .5em .75em;
+  background-color: #f68b1f;
+  white-space: nowrap;
+  font-family: Roboto, sans-serif;
+  color: black;
+  font-size: 1.125rem;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #fdb813;
+  color: black;
+}
