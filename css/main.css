@@ -32,7 +32,7 @@ header h1 {
   margin: 0;
   color: black;
   font-family: Roboto, sans-serif;
-  font-weight: bold;
+  font-weight: black;
   font-size: 2rem;
   text-decoration: none;
   text-align: center;
@@ -64,5 +64,22 @@ nav a {
 
 nav a:hover {
   background-color: #fdb813;
-  color: black;
+  color: white;
+}
+
+h2 {
+  text-decoration: none;
+  text-align: center;
+}
+
+.p1 {
+  max-width: 80%;
+  display: block;
+  vertical-align: center;
+}
+
+.p2 {
+  max-width: 80%;
+  display: block;
+  vertical-align: center;
 }
