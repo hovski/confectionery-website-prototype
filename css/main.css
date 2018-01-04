@@ -23,9 +23,14 @@ body {
   background-color: #fbe6d9;
 }
 
+img {
+  width: 100%;
+}
+
 header {
   background-color: #f17022;
   color: black;
+  overflow: hidden;
 }
 
 header h1 {
@@ -77,10 +82,10 @@ h2 {
   max-width: 80%;
   display: block;
   margin: auto;
-  background-color: #e4f6f8;
+  background-color: white;
   border-radius: 8px;
   padding: .8em;
-  border-color: #62c2cc;
+  border-color: #e4f6f8;
   border-style: solid;
   border-width: 3px;
 }
@@ -105,21 +110,21 @@ h2 {
   width: 100%;
 }
 
-.cards {
-  position: relative;
-  list-style-type: none;
-}
-
 .card {
-  display: block;
+  display: inline-block;
   vertical-align: top;
-  margin: 1em;
+  margin: .5em;
   border-radius: 10px;
   padding: .8em;
   background-color: white;
   border-color: #f17022;
   border-style: solid;
   border-width: 4px;
+}
+
+.cardwrap {
+  margin: auto;
+  text-align: center;
 }
 
 .card-img {
@@ -144,8 +149,24 @@ footer {
   background-color: #f17022;
   text-align: center;
   padding: 1em;
+  position: relative;
 }
 
+.bonbon-1 {
+  width: 5%;
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bonbon-2 {
+  width: 5%;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
 @media only screen and (min-width: 25em) {
 
   html {
@@ -188,6 +209,7 @@ footer {
 
   .card-img {
     display: block;
+    margin: auto;
   }
 
   .card-body {
@@ -215,6 +237,15 @@ footer {
     background-color: #f17022;
   }
 
+  nav a {
+    background-color: #f17022;
+  }
+
+  nav a:hover {
+    background-color: #f68b1f;
+    border-radius: 8px;
+  }
+
   h1 {
     float: left;
   }
@@ -225,6 +256,10 @@ footer {
     margin: 1em 0;
   }
 
+  .cardwrap {
+    width: 70%;
+    margin: auto;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -240,6 +275,20 @@ footer {
 
   header {
     background-color: #f17022;
+  }
+
+  .p-wrap {
+    text-align: center;
+  }
+
+  .p1 {
+    display: block;
+    max-width: 45%;
+  }
+
+  .p2 {
+    display: block;
+    max-width: 45%;
   }
 
   .card-img {
